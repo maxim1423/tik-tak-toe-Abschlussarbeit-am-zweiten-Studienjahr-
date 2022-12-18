@@ -1,1 +1,0 @@
-C:\Users\Lenovo\source\repos\Lab1\GameLib\obj\Debug\GameLib.csproj.CoreCompileInputs.cache
