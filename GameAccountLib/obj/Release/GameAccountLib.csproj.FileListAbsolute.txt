@@ -1,0 +1,6 @@
+C:\Users\Lenovo\source\repos\Lab1\GameAccountLib\obj\Release\GameAccountLib.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\Lab1\GameAccountLib\obj\Release\GameAccountLib.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\Lab1\GameAccountLib\bin\Release\GameAccountLib.dll
+C:\Users\Lenovo\source\repos\Lab1\GameAccountLib\bin\Release\GameAccountLib.pdb
+C:\Users\Lenovo\source\repos\Lab1\GameAccountLib\obj\Release\GameAccountLib.dll
+C:\Users\Lenovo\source\repos\Lab1\GameAccountLib\obj\Release\GameAccountLib.pdb

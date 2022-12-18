@@ -1,11 +1,29 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "GameAccountLib/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/GameAccountLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GameAccountLib.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "GameAccountLib/1.0.0": {
+      "type": "project",
+      "path": "../GameAccountLib/GameAccountLib.csproj",
+      "msbuildProject": "../GameAccountLib/GameAccountLib.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "GameAccountLib >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Lenovo\\.nuget\\packages\\": {}
@@ -13,9 +31,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\Lab1\\Lab1\\Lab1.csproj",
-      "projectName": "Lab1",
-      "projectPath": "C:\\Users\\Lenovo\\source\\repos\\Lab1\\Lab1\\Lab1.csproj",
+      "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\Lab1\\Lab1\\rt.csproj",
+      "projectName": "rt",
+      "projectPath": "C:\\Users\\Lenovo\\source\\repos\\Lab1\\Lab1\\rt.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Lenovo\\source\\repos\\Lab1\\Lab1\\obj\\",
       "projectStyle": "PackageReference",
@@ -33,7 +51,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Lenovo\\source\\repos\\Lab1\\GameAccountLib\\GameAccountLib.csproj": {
+              "projectPath": "C:\\Users\\Lenovo\\source\\repos\\Lab1\\GameAccountLib\\GameAccountLib.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

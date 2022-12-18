@@ -1,0 +1,2 @@
+C:\Users\Lenovo\source\repos\Lab1\GameAccountLib\obj\Debug\GameAccountLib.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\Lab1\GameAccountLib\obj\Debug\GameAccountLib.csproj.CoreCompileInputs.cache
