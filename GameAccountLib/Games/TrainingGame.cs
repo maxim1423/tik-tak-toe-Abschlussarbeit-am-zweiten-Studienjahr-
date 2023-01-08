@@ -1,7 +1,4 @@
 ﻿using Lab2.GameAccounts;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Lab2.Games
 {
@@ -9,17 +6,17 @@ namespace Lab2.Games
     {
         public TrainingGame(GameAccount player1, GameAccount player2) : base(player1, player2, 0)
         {
-            GameType = Types.Training;
+            gameType = Type.Training;
         }
 
         internal override int calcLosingPoints()
         {
-            return Rating;
+            return 0;
         }
 
         internal override int calcWinningPoints()
         {
-            return Rating;
+            return 0;
         }
     }
 }

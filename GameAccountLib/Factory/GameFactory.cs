@@ -1,24 +1,31 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using Lab2;
 using Lab2.GameAccounts;
 using Lab2.Games;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace Lab2.Factory
+namespace GameAccountLib.Factory
 {
     public class GameFactory
     {
-        public Game createNormalGame(GameAccount player1, GameAccount player2, int rating)
+        public Game createGame(GameAccount player1,GameAccount player2, int rating,string Type)
         {
-            return new NormalGame(player1, player2, rating);
+            if (Type == "Normal")
+            {
+                return new NormalGame(player1, player2, rating);
+            }
+            else if (Type == "SafeLose")
+            {
+                return new SafeLoseGame(player1, player2, rating);
+            }
+            else
+            {
+                return new TrainingGame(player1, player2);
+            }
         }
-        public Game createSafeLoseGame(GameAccount player1, GameAccount player2, int rating)
-        {
-            return new SafeLoseGame(player1, player2, rating);
-        }
-        public Game createTrainingGame(GameAccount player1, GameAccount player2)
-        {
-            return new TrainingGame(player1, player2);
-        }
+
     }
 }

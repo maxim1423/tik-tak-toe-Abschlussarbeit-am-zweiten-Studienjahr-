@@ -31,9 +31,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\Lab1\\ConsoleApp1\\Lab2.csproj",
-      "projectName": "Lab2",
-      "projectPath": "C:\\Users\\Lenovo\\source\\repos\\Lab1\\ConsoleApp1\\Lab2.csproj",
+      "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\Lab1\\ConsoleApp1\\Main.csproj",
+      "projectName": "Main",
+      "projectPath": "C:\\Users\\Lenovo\\source\\repos\\Lab1\\ConsoleApp1\\Main.csproj",
       "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Lenovo\\source\\repos\\Lab1\\ConsoleApp1\\obj\\",
       "projectStyle": "PackageReference",
